@@ -2,6 +2,7 @@ from googleapiclient.discovery import build
 
 def main(event, context):
 
+    print('Processing File: {}'.format(event['name']))
     project = '<your-project-id'
     job = '<any-job-name>'
     template = 'gs://dataflow-templates/latest/Word_Count'
