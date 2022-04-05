@@ -1,6 +1,6 @@
+from googleapiclient.discovery import build
+
 def main(event, context):
-    from googleapiclient.discovery import build
-    print('File: {}'.format(event['name']))
 
     project = '<your-project-id'
     job = '<any-job-name>'
