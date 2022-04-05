@@ -8,8 +8,8 @@ def main(event, context):
 
     parameters = {
         #'inputFile': 'gs://dataflow-samples/shakespeare/kinglear.txt',
-        'inputFile': 'gs://dstreambucket2820/{}'.format(event['name']),
-        'output': 'gs://dstreambucket2820/wordcount/outputs',
+        'inputFile': 'gs://<bucket-name>/{}'.format(event['name']),
+        'output': 'gs://<bucket-name>/wordcount/outputs',
     }
 
     dataflow = build('dataflow', 'v1b3')
