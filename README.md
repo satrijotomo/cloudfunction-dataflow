@@ -6,12 +6,15 @@ Create the cloud function as "Cloud Storage" trigger type and "Finalize/Create" 
 
 ### Reference:
 This repo uses Google Cloud's code example in below doc:
+
 https://cloud.google.com/dataflow/docs/guides/templates/running-templates#using-the-rest-api
 
-For service account requirements, check: 
+For service account requirements, check:
+
 https://cloud.google.com/dataflow/docs/concepts/security-and-permissions#specifying_a_user-managed_worker_service_account
 
-Wordcount template reference::
+Wordcount template reference:
+
 https://cloud.google.com/dataflow/docs/guides/templates/provided-templates#wordcount
 https://beam.apache.org/get-started/wordcount-example/
 
