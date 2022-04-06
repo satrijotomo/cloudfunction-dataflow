@@ -5,6 +5,7 @@ This repo is meant to give an example of triggering a dataflow template, in this
 Create the cloud function as "Cloud Storage" trigger type and "Finalize/Create" event type.
 
 ### Reference:
+This repo uses Google Cloud's code example in below doc:
 https://cloud.google.com/dataflow/docs/guides/templates/running-templates#using-the-rest-api
 
 For service account requirements, check: 
